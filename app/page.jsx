@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
 
 const projectsData = [
   {
@@ -74,12 +73,15 @@ export default function Home() {
               </div>
             </div>
             <div style={{ flex: 0.5, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <Image
+              <img
                 src="/Portfolio_images/3.jpg"
                 alt="Rian Attia"
-                width={300}
-                height={400}
-                style={{ borderRadius: 'var(--radius-lg)', objectFit: 'cover' }}
+                style={{ 
+                  width: '300px',
+                  height: '400px',
+                  borderRadius: 'var(--radius-lg)', 
+                  objectFit: 'cover'
+                }}
               />
             </div>
           </div>
