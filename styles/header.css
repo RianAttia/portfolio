@@ -54,7 +54,7 @@
 .nav-link::after {
   content: '';
   position: absolute;
-  bottom: -8px;
+  bottom: -2px;
   left: 0;
   right: 0;
   height: 2px;
@@ -102,7 +102,7 @@
   }
 
   .nav-link::after {
-    bottom: -0px;
+    bottom: -1px;
   }
 
   .nav-link:hover {
