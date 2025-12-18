@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
-  basePath: '/portfolio',
+  basePath: process.env.NODE_ENV === 'production' ? '/portfolio' : '',
   images: {
     unoptimized: true,
   },
