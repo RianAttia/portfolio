@@ -84,18 +84,25 @@
     left: 0;
     right: 0;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     padding: var(--spacing-lg);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    z-index: 50;
   }
 
   .nav-links.active {
-    display: flex;
+    display: flex !important;
   }
 
   .nav-link {
     font-size: var(--font-size-sm);
+    color: var(--color-accent);
+    padding: var(--spacing-md) 0;
+  }
+
+  .nav-link:hover {
+    color: var(--color-accent);
   }
 
   .hamburger {
