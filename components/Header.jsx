@@ -44,6 +44,14 @@ export default function Header() {
             </li>
             <li>
               <Link
+                href="/blog"
+                className={`nav-link ${isActive('/blog') ? 'active' : ''}`}
+              >
+                Blog
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/contact"
                 className={`nav-link ${isActive('/contact') ? 'active' : ''}`}
               >
