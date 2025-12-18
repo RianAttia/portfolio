@@ -102,7 +102,7 @@
   }
 
   .nav-link::after {
-    bottom: -2px;
+    bottom: -0px;
   }
 
   .nav-link:hover {
