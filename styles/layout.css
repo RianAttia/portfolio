@@ -40,7 +40,7 @@
   border-bottom: none;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .section {
     padding: var(--spacing-2xl) 0;
   }
@@ -50,7 +50,21 @@
   }
 
   .section-hero {
-    padding: var(--spacing-2xl) 0 var(--spacing-xl) 0;
+    padding: var(--spacing-2xl) 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .section {
+    padding: var(--spacing-xl) 0;
+  }
+
+  .section-small {
+    padding: var(--spacing-lg) 0;
+  }
+
+  .section-hero {
+    padding: var(--spacing-xl) 0;
   }
 }
 
@@ -71,6 +85,10 @@
   .grid-2,
   .grid-3 {
     grid-template-columns: 1fr;
+  }
+
+  .grid {
+    gap: var(--spacing-lg);
   }
 }
 
