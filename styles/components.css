@@ -156,7 +156,19 @@
 }
 
 @media (max-width: 640px) {
+  .hero-section {
+    flex-direction: column !important;
+  }
+
   .hero-section > div:last-child {
-    display: none;
+    display: flex !important;
+    margin-top: var(--spacing-xl);
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero-section > div:last-child img {
+    max-width: 100%;
+    height: auto;
   }
 }
