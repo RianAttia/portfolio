@@ -41,7 +41,13 @@ export default function Home() {
               padding: 'var(--spacing-2xl)',
               border: '1px solid rgba(255, 255, 255, 0.05)',
               gap: 'var(--spacing-xl)',
+              '@media (max-width: 768px)': {
+                flexDirection: 'column',
+                minHeight: 'auto',
+                padding: 'var(--spacing-xl)',
+              }
             }}
+            className="hero-section"
           >
             <div style={{ flex: 1 }}>
               <h1 style={{ marginBottom: 'var(--spacing-lg)', maxWidth: '800px' }}>
@@ -58,7 +64,7 @@ export default function Home() {
               >
                 I&apos;m a passionate developer and designer dedicated to creating thoughtful, functional, and beautiful digital products that matter.
               </p>
-              <div style={{ display: 'flex', gap: 'var(--spacing-md)' }}>
+              <div style={{ display: 'flex', gap: 'var(--spacing-md)', flexWrap: 'wrap' }}>
                 <Link href="/projects" className="button button-primary">
                   Explore My Work
                 </Link>

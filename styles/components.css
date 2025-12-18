@@ -9,6 +9,15 @@
   gap: var(--spacing-xs);
   box-shadow: var(--shadow-sm);
   letter-spacing: 0.5px;
+  white-space: normal;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .button {
+    padding: 0.6rem 1rem;
+    font-size: var(--font-size-sm);
+  }
 }
 
 .button:active {
@@ -135,4 +144,19 @@
   background-color: var(--color-gray-100);
   color: var(--color-gray-800);
   letter-spacing: 0.5px;
+}
+
+/* Hero Section Responsive */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column !important;
+    min-height: auto !important;
+    padding: var(--spacing-xl) !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-section > div:last-child {
+    display: none;
+  }
 }
