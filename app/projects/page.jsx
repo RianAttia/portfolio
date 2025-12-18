@@ -140,7 +140,7 @@ export default function Projects() {
             <p style={{ marginBottom: 'var(--spacing-lg)' }}>
               Let&apos;s discuss how I can help bring your ideas to life.
             </p>
-            <a href="/contact" className="button button-primary">
+            <a href="https://ai-product-contact-form.zapier.app/contact-form" className="button button-primary" target="_blank" rel="noopener noreferrer">
               Contact Me
             </a>
           </div>
