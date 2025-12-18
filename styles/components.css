@@ -1,0 +1,138 @@
+.button {
+  padding: 0.75rem 1.75rem;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  border-radius: var(--radius-lg);
+  transition: all var(--transition-base);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  box-shadow: var(--shadow-sm);
+  letter-spacing: 0.5px;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.button-primary {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+}
+
+.button-primary:hover {
+  background-color: #073d9f;
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.button-secondary {
+  background-color: var(--color-gray-100);
+  color: var(--color-gray-900);
+  border: 1.5px solid var(--color-gray-300);
+  box-shadow: none;
+}
+
+.button-secondary:hover {
+  background-color: var(--color-gray-200);
+  border-color: var(--color-gray-400);
+  box-shadow: var(--shadow-sm);
+  transform: translateY(-2px);
+}
+
+.button-outline {
+  background-color: transparent;
+  color: var(--color-accent);
+  border: 2px solid var(--color-accent);
+  box-shadow: none;
+}
+
+.button-outline:hover {
+  background-color: var(--color-accent-lighter);
+  box-shadow: var(--shadow-sm);
+  transform: translateY(-2px);
+}
+
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--spacing-lg);
+}
+
+.input-group label {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-gray-900);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.input-group input,
+.input-group textarea {
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: 2px solid var(--color-gray-300);
+  border-radius: var(--radius-lg);
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  transition: all var(--transition-fast);
+  background-color: var(--color-gray-50);
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  background-color: var(--color-white);
+  box-shadow: 0 0 0 6px var(--color-accent-lighter);
+}
+
+.input-group textarea {
+  resize: vertical;
+  min-height: 150px;
+  font-family: var(--font-family);
+}
+
+/* Card Component */
+.card {
+  background-color: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  transition: all var(--transition-base);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  border-color: rgba(13, 71, 161, 0.5);
+  box-shadow: 0 12px 48px rgba(13, 71, 161, 0.2);
+  transform: translateY(-4px);
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+/* Badge Component */
+.badge {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background-color: var(--color-accent-lighter);
+  color: var(--color-accent);
+}
+
+/* Feature Tag */
+.feature-tag {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  background-color: var(--color-gray-100);
+  color: var(--color-gray-700);
+  letter-spacing: 0.5px;
+}
