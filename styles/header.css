@@ -40,7 +40,7 @@
 
 .nav-link {
   font-size: var(--font-size-base);
-  color: var(--color-gray-700);
+  color: var(--color-white);
   font-weight: var(--font-weight-medium);
   position: relative;
   transition: color var(--transition-fast);

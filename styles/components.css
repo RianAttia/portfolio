@@ -64,7 +64,7 @@
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-semibold);
   margin-bottom: var(--spacing-sm);
-  color: var(--color-gray-900);
+  color: var(--color-white);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
@@ -133,6 +133,6 @@
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-semibold);
   background-color: var(--color-gray-100);
-  color: var(--color-gray-700);
+  color: var(--color-white);
   letter-spacing: 0.5px;
 }

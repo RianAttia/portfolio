@@ -39,8 +39,8 @@ export default function About() {
           <h2 style={{ marginBottom: 'var(--spacing-xl)' }}>Education</h2>
           <div style={sectionBoxStyle}>
             <h3 style={{ marginBottom: 'var(--spacing-sm)' }}>B.S. in Business Information Systems</h3>
-            <p style={{ color: 'var(--color-gray-600)', marginBottom: 'var(--spacing-sm)' }}>Minor in Data Data Analysis</p>
-            <p style={{ color: 'var(--color-gray-600)', marginBottom: 'var(--spacing-md)' }}>NJIT • Newark, NJ • Sep 2023 - Present</p>
+            <p style={{ color: 'var(--color-white)', marginBottom: 'var(--spacing-sm)' }}>Minor in Data Data Analysis</p>
+            <p style={{ color: 'var(--color-white)', marginBottom: 'var(--spacing-md)' }}>NJIT • Newark, NJ • Sep 2023 - Present</p>
             <p style={{ marginBottom: 'var(--spacing-md)' }}>
               <strong>Relevant Coursework:</strong> Introduction to Computer Science, UI Designing the User Experience, Information Design Techniques, Intro to Networking Technology
             </p>
@@ -55,8 +55,8 @@ export default function About() {
           
           <div style={sectionBoxStyle}>
             <h3 style={{ marginBottom: 'var(--spacing-sm)' }}>Payroll Organizer and Counter Lead</h3>
-            <p style={{ color: 'var(--color-gray-600)', marginBottom: 'var(--spacing-sm)' }}>La Mia Pizza • New York</p>
-            <p style={{ color: 'var(--color-gray-600)', marginBottom: 'var(--spacing-md)' }}>Jun 2015 - Present</p>
+            <p style={{ color: 'var(--color-white)', marginBottom: 'var(--spacing-sm)' }}>La Mia Pizza • New York</p>
+            <p style={{ color: 'var(--color-white)', marginBottom: 'var(--spacing-md)' }}>Jun 2015 - Present</p>
             <ul style={{ listStyle: 'disc', paddingLeft: 'var(--spacing-lg)', marginBottom: 'var(--spacing-md)' }}>
               <li style={{ marginBottom: 'var(--spacing-sm)' }}>
                 Processed payroll for eight employees to ensure accurate and timely compensation, resulting in zero payroll discrepancies and increased employee satisfaction.
@@ -69,8 +69,8 @@ export default function About() {
 
           <div style={sectionBoxStyle}>
             <h3 style={{ marginBottom: 'var(--spacing-sm)' }}>Cashier</h3>
-            <p style={{ color: 'var(--color-gray-600)', marginBottom: 'var(--spacing-sm)' }}>Walgreens, Carlstadt</p>
-            <p style={{ color: 'var(--color-gray-600)', marginBottom: 'var(--spacing-md)' }}>Oct 2022 - May 2023</p>
+            <p style={{ color: 'var(--color-white)', marginBottom: 'var(--spacing-sm)' }}>Walgreens, Carlstadt</p>
+            <p style={{ color: 'var(--color-white)', marginBottom: 'var(--spacing-md)' }}>Oct 2022 - May 2023</p>
             <ul style={{ listStyle: 'disc', paddingLeft: 'var(--spacing-lg)' }}>
               <li style={{ marginBottom: 'var(--spacing-sm)' }}>
                 Provided customer service at the cash register to ensure smooth and efficient transactions, resulting in faster checkout times and enhanced customer satisfaction.
@@ -124,7 +124,7 @@ export default function About() {
           
           <div style={sectionBoxStyle}>
             <h3 style={{ marginBottom: 'var(--spacing-md)' }}>NHS Award</h3>
-            <p style={{ color: 'var(--color-gray-600)', marginBottom: 'var(--spacing-md)' }}>June 2023</p>
+            <p style={{ color: 'var(--color-white)', marginBottom: 'var(--spacing-md)' }}>June 2023</p>
             <p>
               Bestowed with an award in recognition of my academic excellence and dedication to maintaining the highest level of performance. This distinction was granted for sustaining a perfect 4.0 GPA throughout the entire academic year.
             </p>
@@ -139,8 +139,8 @@ export default function About() {
           
           <div style={sectionBoxStyle}>
             <h3 style={{ marginBottom: 'var(--spacing-sm)' }}>Gift Consultant</h3>
-            <p style={{ color: 'var(--color-gray-600)', marginBottom: 'var(--spacing-sm)' }}>Newark</p>
-            <p style={{ color: 'var(--color-gray-600)', marginBottom: 'var(--spacing-md)' }}>Nov 2022 - Dec 2022</p>
+            <p style={{ color: 'var(--color-white)', marginBottom: 'var(--spacing-sm)' }}>Newark</p>
+            <p style={{ color: 'var(--color-white)', marginBottom: 'var(--spacing-md)' }}>Nov 2022 - Dec 2022</p>
             <p>
               Volunteered at a local gift-buying school in Newark to distribute gifts to students during community events, fostering a positive and supportive environment for children and families.
             </p>
@@ -155,19 +155,19 @@ export default function About() {
           
           <div style={sectionBoxStyle}>
             <h3 style={{ marginBottom: 'var(--spacing-md)' }}>Robotic Club</h3>
-            <p style={{ color: 'var(--color-gray-600)', marginBottom: 'var(--spacing-md)' }}>Sep 2018 - Jun 2019</p>
+            <p style={{ color: 'var(--color-white)', marginBottom: 'var(--spacing-md)' }}>Sep 2018 - Jun 2019</p>
             <p style={{ marginBottom: 'var(--spacing-xl)' }}>
               Applied programming and engineering concepts to design, build, and test robots for competitions. Strengthened technical skills in coding, mechanical design, and troubleshooting.
             </p>
 
             <h3 style={{ marginBottom: 'var(--spacing-md)' }}>Choir</h3>
-            <p style={{ color: 'var(--color-gray-600)', marginBottom: 'var(--spacing-md)' }}>Sep 2013 - Jun 2022</p>
+            <p style={{ color: 'var(--color-white)', marginBottom: 'var(--spacing-md)' }}>Sep 2013 - Jun 2022</p>
             <p style={{ marginBottom: 'var(--spacing-xl)' }}>
               Collaborated closely with the alto section during rehearsals and performances to strengthen vocal harmony and cohesion, contributing to the overall success and musical excellence of the ensemble.
             </p>
 
             <h3 style={{ marginBottom: 'var(--spacing-md)' }}>Tennis Club</h3>
-            <p style={{ color: 'var(--color-gray-600)', marginBottom: 'var(--spacing-md)' }}>Sep 2022 - Jun 2023</p>
+            <p style={{ color: 'var(--color-white)', marginBottom: 'var(--spacing-md)' }}>Sep 2022 - Jun 2023</p>
             <p>
               Developed tenacity and perseverance by actively participating in tennis club practices and matches, leading to improved performance, resilience, and a stronger competitive mindset.
             </p>

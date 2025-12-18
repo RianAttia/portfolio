@@ -94,7 +94,7 @@
 
 .section-title p {
   font-size: var(--font-size-lg);
-  color: var(--color-gray-700);
+  color: var(--color-white);
   max-width: 600px;
   font-weight: var(--font-weight-medium);
 }

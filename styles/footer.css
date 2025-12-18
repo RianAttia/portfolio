@@ -2,7 +2,7 @@
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   padding: var(--spacing-3xl) 0 var(--spacing-2xl) 0;
   margin-top: var(--spacing-3xl);
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(10, 10, 20, 0.4);
   backdrop-filter: blur(15px);
 }
 
@@ -28,7 +28,7 @@
 
 .footer-link {
   font-size: var(--font-size-sm);
-  color: var(--color-gray-700);
+  color: var(--color-white);
   margin-bottom: var(--spacing-md);
   transition: color var(--transition-fast);
   font-weight: var(--font-weight-medium);
@@ -49,7 +49,7 @@
   justify-content: space-between;
   align-items: center;
   font-size: var(--font-size-sm);
-  color: var(--color-gray-700);
+  color: var(--color-white);
 }
 
 .footer-bottom p {

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 
 const projectsData = [
   {
@@ -30,49 +31,61 @@ export default function Home() {
           <div
             style={{
               display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'center',
+              flexDirection: 'row',
+              justifyContent: 'space-between',
+              alignItems: 'center',
               minHeight: '70vh',
-              alignItems: 'flex-start',
               background: 'rgba(255, 255, 255, 0.02)',
               backdropFilter: 'blur(10px)',
               borderRadius: 'var(--radius-lg)',
               padding: 'var(--spacing-2xl)',
               border: '1px solid rgba(255, 255, 255, 0.05)',
+              gap: 'var(--spacing-xl)',
             }}
           >
-            <div
-              style={{
-                display: 'inline-block',
-                padding: '0.5rem 1rem',
-                backgroundColor: 'var(--color-accent-lighter)',
-                borderRadius: 'var(--radius-lg)',
-                marginBottom: 'var(--spacing-lg)',
-              }}
-            >
-              <span style={{ color: 'var(--color-accent)', fontWeight: 'var(--font-weight-semibold)', fontSize: 'var(--font-size-sm)', textTransform: 'uppercase', letterSpacing: '0.5px' }}>✨ Web Developer & Designer</span>
+            <div style={{ flex: 1 }}>
+              <div
+                style={{
+                  display: 'inline-block',
+                  padding: '0.5rem 1rem',
+                  backgroundColor: 'var(--color-accent-lighter)',
+                  borderRadius: 'var(--radius-lg)',
+                  marginBottom: 'var(--spacing-lg)',
+                }}
+              >
+                <span style={{ color: 'var(--color-accent)', fontWeight: 'var(--font-weight-semibold)', fontSize: 'var(--font-size-sm)', textTransform: 'uppercase', letterSpacing: '0.5px' }}>✨ AI Product Engineer</span>
+              </div>
+              <h1 style={{ marginBottom: 'var(--spacing-lg)', maxWidth: '800px' }}>
+                Rian Attia, AI Product Engineer
+              </h1>
+              <p
+                style={{
+                  fontSize: 'var(--font-size-xl)',
+                  color: 'var(--color-gray-800)',
+                  marginBottom: 'var(--spacing-xl)',
+                  maxWidth: '700px',
+                  lineHeight: 'var(--line-height-relaxed)',
+                }}
+              >
+                I&apos;m a passionate developer and designer dedicated to creating thoughtful, functional, and beautiful digital products that matter.
+              </p>
+              <div style={{ display: 'flex', gap: 'var(--spacing-md)' }}>
+                <Link href="/projects" className="button button-primary">
+                  Explore My Work
+                </Link>
+                <a href="https://calendly.com/rianattia/30min" target="_blank" rel="noopener noreferrer" className="button button-outline">
+                  Free Consulting
+                </a>
+              </div>
             </div>
-            <h1 style={{ marginBottom: 'var(--spacing-lg)', maxWidth: '800px' }}>
-              Crafting Digital Experiences for Tomorrow&apos;s Leaders
-            </h1>
-            <p
-              style={{
-                fontSize: 'var(--font-size-xl)',
-                color: 'var(--color-gray-800)',
-                marginBottom: 'var(--spacing-xl)',
-                maxWidth: '700px',
-                lineHeight: 'var(--line-height-relaxed)',
-              }}
-            >
-              I&apos;m a passionate developer and designer dedicated to creating thoughtful, functional, and beautiful digital products that matter.
-            </p>
-            <div style={{ display: 'flex', gap: 'var(--spacing-md)' }}>
-              <Link href="/projects" className="button button-primary">
-                Explore My Work
-              </Link>
-              <a href="https://calendly.com/rianattia/30min" target="_blank" rel="noopener noreferrer" className="button button-outline">
-                Free Consulting
-              </a>
+            <div style={{ flex: 0.5, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+              <Image
+                src="/Portfolio_images/3.jpg"
+                alt="Rian Attia"
+                width={200}
+                height={200}
+                style={{ borderRadius: 'var(--radius-lg)', objectFit: 'cover' }}
+              />
             </div>
           </div>
         </div>
