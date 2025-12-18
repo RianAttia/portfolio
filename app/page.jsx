@@ -2,6 +2,11 @@
 
 import Link from 'next/link';
 
+const getImagePath = (path) => {
+  const basePath = process.env.NODE_ENV === 'production' ? '/portfolio' : '';
+  return basePath + path;
+};
+
 const projectsData = [
   {
     id: 1,
@@ -74,7 +79,7 @@ export default function Home() {
             </div>
             <div style={{ flex: 0.5, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               <img
-                src="/Portfolio_images/3.jpg"
+                src={getImagePath('/Portfolio_images/3.jpg')}
                 alt="Rian Attia"
                 style={{ 
                   width: '300px',
