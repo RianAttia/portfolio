@@ -14,7 +14,7 @@ const projectsData = [
   },
   {
     id: 2,
-    title: 'IS117 Test Site',
+    title: 'Design Project',
     description:
       'An interactive dashboard for data visualization and analysis.',
     tags: ['React', 'D3.js', 'Node.js'],
@@ -44,17 +44,6 @@ export default function Home() {
             }}
           >
             <div style={{ flex: 1 }}>
-              <div
-                style={{
-                  display: 'inline-block',
-                  padding: '0.5rem 1rem',
-                  backgroundColor: 'var(--color-accent-lighter)',
-                  borderRadius: 'var(--radius-lg)',
-                  marginBottom: 'var(--spacing-lg)',
-                }}
-              >
-                <span style={{ color: 'var(--color-accent)', fontWeight: 'var(--font-weight-semibold)', fontSize: 'var(--font-size-sm)', textTransform: 'uppercase', letterSpacing: '0.5px' }}>✨ AI Product Engineer</span>
-              </div>
               <h1 style={{ marginBottom: 'var(--spacing-lg)', maxWidth: '800px' }}>
                 Rian Attia, AI Product Engineer
               </h1>
@@ -82,8 +71,8 @@ export default function Home() {
               <Image
                 src="/Portfolio_images/3.jpg"
                 alt="Rian Attia"
-                width={200}
-                height={200}
+                width={300}
+                height={400}
                 style={{ borderRadius: 'var(--radius-lg)', objectFit: 'cover' }}
               />
             </div>

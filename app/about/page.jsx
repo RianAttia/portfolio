@@ -58,10 +58,10 @@ export default function About() {
             <p style={{ color: 'var(--color-white)', marginBottom: 'var(--spacing-sm)' }}>La Mia Pizza • New York</p>
             <p style={{ color: 'var(--color-white)', marginBottom: 'var(--spacing-md)' }}>Jun 2015 - Present</p>
             <ul style={{ listStyle: 'disc', paddingLeft: 'var(--spacing-lg)', marginBottom: 'var(--spacing-md)' }}>
-              <li style={{ marginBottom: 'var(--spacing-sm)' }}>
+              <li style={{ marginBottom: 'var(--spacing-sm)', color: 'var(--color-gray-800)' }}>
                 Processed payroll for eight employees to ensure accurate and timely compensation, resulting in zero payroll discrepancies and increased employee satisfaction.
               </li>
-              <li style={{ marginBottom: 'var(--spacing-sm)' }}>
+              <li style={{ marginBottom: 'var(--spacing-sm)', color: 'var(--color-gray-800)' }}>
                 Advised employees on delivery applications by providing step-by-step guidance and tech support, demonstrating leadership between business operations and technology, which led to improved efficiency and greater confidence in managing deliveries.
               </li>
             </ul>
@@ -72,10 +72,10 @@ export default function About() {
             <p style={{ color: 'var(--color-white)', marginBottom: 'var(--spacing-sm)' }}>Walgreens, Carlstadt</p>
             <p style={{ color: 'var(--color-white)', marginBottom: 'var(--spacing-md)' }}>Oct 2022 - May 2023</p>
             <ul style={{ listStyle: 'disc', paddingLeft: 'var(--spacing-lg)' }}>
-              <li style={{ marginBottom: 'var(--spacing-sm)' }}>
+              <li style={{ marginBottom: 'var(--spacing-sm)', color: 'var(--color-gray-800)' }}>
                 Provided customer service at the cash register to ensure smooth and efficient transactions, resulting in faster checkout times and enhanced customer satisfaction.
               </li>
-              <li>
+              <li style={{ color: 'var(--color-gray-800)' }}>
                 Organized products in several different aisles according to company standards to maintain a clean and shoppable environment, improving product visibility and contributing to increased sales.
               </li>
             </ul>
