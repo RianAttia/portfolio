@@ -101,6 +101,10 @@
     padding: var(--spacing-md) 0;
   }
 
+  .nav-link::after {
+    bottom: -2px;
+  }
+
   .nav-link:hover {
     color: var(--color-accent);
   }
