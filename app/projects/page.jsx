@@ -83,7 +83,7 @@ export default function Projects() {
                   e.currentTarget.style.background = 'rgba(255, 255, 255, 0.08)';
                 }}
               >
-                <h3 style={{ color: 'var(--color-accent)' }}>{project.title}</h3>
+                <h2 style={{ color: 'var(--color-white)', fontSize: 'var(--font-size-xl)' }}>{project.title}</h2>
                 <p style={{ flex: 1 }}>{project.fullDescription}</p>
                 <div
                   style={{

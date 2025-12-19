@@ -17,7 +17,7 @@
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-bold);
   margin-bottom: var(--spacing-md);
-  color: var(--color-black);
+  color: var(--color-white);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }

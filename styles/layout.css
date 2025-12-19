@@ -105,7 +105,7 @@
 
 .section-title h2 {
   margin-bottom: var(--spacing-md);
-  color: var(--color-black);
+  color: var(--color-white);
   font-weight: var(--font-weight-bold);
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }

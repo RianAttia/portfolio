@@ -108,7 +108,7 @@ h1 {
   line-height: var(--line-height-tight);
   margin-bottom: var(--spacing-md);
   letter-spacing: -0.02em;
-  color: var(--color-black);
+  color: var(--color-white);
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
 
@@ -127,7 +127,7 @@ h3 {
   font-weight: var(--font-weight-semibold);
   line-height: var(--line-height-snug);
   margin-bottom: var(--spacing-sm);
-  color: var(--color-accent);
+  color: var(--color-white);
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
 }
 
@@ -136,11 +136,11 @@ h4 {
   font-weight: var(--font-weight-semibold);
   line-height: var(--line-height-normal);
   margin-bottom: var(--spacing-sm);
-  color: var(--color-black);
+  color: var(--color-white);
 }
 
 p {
-  color: var(--color-gray-800);
+  color: var(--color-gray-200);
   margin-bottom: var(--spacing-md);
   line-height: var(--line-height-relaxed);
   font-weight: var(--font-weight-regular);

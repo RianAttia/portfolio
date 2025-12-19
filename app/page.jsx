@@ -60,7 +60,7 @@ export default function Home() {
               <p
                 style={{
                   fontSize: 'var(--font-size-xl)',
-                  color: 'var(--color-gray-800)',
+                  color: 'var(--color-gray-200)',
                   marginBottom: 'var(--spacing-xl)',
                   maxWidth: '700px',
                   lineHeight: 'var(--line-height-relaxed)',
@@ -138,8 +138,8 @@ export default function Home() {
                   e.currentTarget.style.background = 'rgba(255, 255, 255, 0.08)';
                 }}
               >
-                <h3 style={{ color: 'var(--color-accent)', marginBottom: 'var(--spacing-md)' }}>{project.title}</h3>
-                <p style={{ flex: 1, marginBottom: 'var(--spacing-lg)', color: 'var(--color-gray-700)' }}>{project.description}</p>
+                <h3 style={{ color: 'var(--color-white)', marginBottom: 'var(--spacing-md)' }}>{project.title}</h3>
+                <p style={{ flex: 1, marginBottom: 'var(--spacing-lg)', color: 'var(--color-gray-200)' }}>{project.description}</p>
                 <div
                   style={{
                     display: 'flex',
