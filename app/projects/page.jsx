@@ -13,7 +13,7 @@ const allProjects = [
   },
   {
     id: 2,
-    title: 'IS117 Test Site',
+    title: 'Design project',
     description:
       'An interactive dashboard for data visualization and analysis.',
     fullDescription:
